@@ -12,6 +12,9 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acro
 	font: inherit;
 	vertical-align: baseline;
 }
+div{
+	background: rgba(0,0,0,.4);
+}
 ol, ul{
 	list-style: none;
 }
@@ -25,4 +28,17 @@ ol, ul{
 	margin: 0 auto;
 	width: 100%;
 	max-width: 900px;
+	text-align: center;
+	outline: 1px gray solid;
+}
+.player{
+	max-width: 450px;
+	margin: 0 auto;
+	color: white;
+}
+ul{
+	text-align: left;
+}
+li{
+	margin-bottom: 14px;
 }
